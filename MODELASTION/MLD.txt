@@ -1,0 +1,9 @@
+client  :  id_client  , nom , prenom , Email , pswd , N_tele  .
+           ---------
+
+annonce  : id_annonce , titre , prix , publication_Date , Modification_Date , adresse , categor , Ville , Type_an , Galerie , #id_client .
+           ----------
+
+
+Image : id_pic , pic_name , pic_link , #id_annonce .
+        ------
